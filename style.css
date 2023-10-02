@@ -1,0 +1,116 @@
+#navigation {
+  width: 15vw;
+  background-color: black;
+  height: 85vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.nav-subsec-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-top: 10px;
+  line-height: 35px;
+}
+
+.nav-subsec-links > a > img {
+  /* width: 15px; */
+  margin-right: 20px;
+}
+
+.nav-subsec-links > a,
+.nav-subsec-p {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.nav-subsec-p {
+  margin-left: 20px;
+  margin-top: 15px;
+  line-height: 12px;
+}
+
+.library {
+  width: 31px;
+}
+
+.plus {
+  background-color: white;
+}
+
+.heart {
+  background: linear-gradient(
+    145deg,
+    #4000f4,
+    #603aed,
+    #7c6ee6,
+    #979fe1,
+    #a2b3de,
+    #adc8dc,
+    #c0ecd7
+  );
+  width: 32px;
+}
+
+.episode {
+  background-color: white;
+  width: 32px;
+}
+
+#footer {
+  background-color: #181818;
+  width: 100vw;
+  height: 15vh;
+  border-bottom: 20px solid #1ed760;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 0%;
+  right: 5%;
+  color: black;
+  font-size: 17px;
+  font-family: DM Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.footer-col1 {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  justify-content: space-around;
+}
+
+.footer-album-image {
+  width: 40px;
+}
+
+.song-name {
+  color: white;
+  font-size: 18px;
+  font-family: DM Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-bottom: 0px;
+}
+
+.author-name {
+  color: #b3b3b3;
+  font-size: 15px;
+  font-family: DM Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
